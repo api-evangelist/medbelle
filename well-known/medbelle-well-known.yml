@@ -1,0 +1,37 @@
+generated: '2026-08-25'
+method: probed
+source: live GET probes of /.well-known/* on medbelle.com (2026-08-25)
+note: >-
+  Every path returned HTTP 404. medbelle.com serves a single static farewell page at
+  "/" and a 3,449-byte custom 404 HTML document for every other path, including all
+  /.well-known/* locations. No document was served, so NO WellKnown or SecurityTxt
+  pointer is wired in apis.yml — this file records a verified absence, not a presence.
+  Subdomains app./my./portal./careconnect./clinic./admin.medbelle.com and medbelle.de /
+  medbelle.co.uk do not resolve, so they carry no /.well-known/ surface to probe.
+hosts:
+- host: medbelle.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null

@@ -1,0 +1,11 @@
+generated: '2026-08-25'
+method: searched
+source: https://medbelle.com/
+limit_count: 0
+rate_limits: []
+headers: []
+note: >-
+  No published rate limits. Medbelle has no public API, no developer documentation, and
+  no live API host to observe headers on (api.medbelle.com does not resolve). The company
+  ceased operations in 2026 and medbelle.com now returns 404 for every path except "/".
+  This is a recorded absence, not an unchecked field.

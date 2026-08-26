@@ -64,5 +64,14 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Medbelle is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Medbelle (2016-2026) was a London-headquartered digital healthcare company that operated as a
+"digital hospital" coordinating elective specialist care across the UK, pairing a technology
+platform (Medbelle OS, with the CareConnect virtual-first assessment pathway) with human Patient
+Care Advisers. **Medbelle ceased operations in 2026** and its technology platform was transferred
+to another owner. Medbelle never published a public API, developer portal, or machine-readable API
+contract, and none survives — `medbelle.com` now serves a single farewell page and returns 404 for
+every other path. See `lifecycle/medbelle-lifecycle.yml` for the full contract-discovery probe log.
+
+- Website: https://medbelle.com/
+- GitHub organization (zero public repositories): https://github.com/Medbelle
+- LinkedIn: https://www.linkedin.com/company/medbelle/

@@ -1,0 +1,90 @@
+generated: '2026-08-25'
+method: searched
+source: https://medbelle.com/
+name: Medbelle
+company_status: ceased-operations
+summary: >-
+  Medbelle operated 2016-2026 and has ceased trading. The company's own site now serves
+  a single farewell page stating "Medbelle has now ceased operations and our technology
+  platform has found a new home." There is no API to version, deprecate, or monitor.
+timeline:
+- date: '2016'
+  event: Medbelle founded in London by Leander de Laporte and Daniel Kolb.
+  source: https://medbelle.com/
+- date: '2026'
+  event: >-
+    Medbelle ceases operations; the technology platform is transferred to another owner
+    (the farewell page does not name the acquirer).
+  source: https://medbelle.com/
+- date: '2026-08-25'
+  event: >-
+    Probed by API Evangelist. medbelle.com/ returns 200 with the farewell page; every
+    other probed path on the domain returns 404, including the previously indexed
+    /careconnect/, /about/ and /blog/ marketing pages.
+  source: https://medbelle.com/careconnect/
+versioning:
+  scheme: null
+  note: No API or API versioning policy was ever published.
+deprecation_policy:
+  published: false
+  sunset_header: false
+  deprecation_header: false
+  note: >-
+    No deprecation or Sunset/Deprecation (RFC 8594) policy found. No Deprecation pointer
+    is wired in apis.yml because the provider never published one.
+status_page:
+  published: false
+  url: null
+  note: >-
+    No status page found on medbelle.com or on a status./statuspage host. No StatusPage
+    pointer is wired in apis.yml.
+sla:
+  published: false
+contract_discovery:
+  performed: '2026-08-25'
+  result: no-published-contract
+  probes:
+  - target: https://medbelle.com/openapi.json
+    status: 404
+  - target: https://medbelle.com/openapi.yaml
+    status: 404
+  - target: https://medbelle.com/swagger.json
+    status: 404
+  - target: https://medbelle.com/v1/openapi.json
+    status: 404
+  - target: https://medbelle.com/api-docs
+    status: 404
+  - target: https://medbelle.com/docs
+    status: 404
+  - target: https://medbelle.com/redoc
+    status: 404
+  - target: https://medbelle.com/graphql
+    status: 404
+  - target: https://medbelle.com/apis.json
+    status: 404
+  - target: https://medbelle.com/llms.txt
+    status: 404
+  - target: https://api.medbelle.com/
+    status: 0
+    note: DNS does not resolve.
+  - target: https://docs.medbelle.com/
+    status: 0
+    note: DNS does not resolve.
+  - target: https://developers.medbelle.com/
+    status: 0
+    note: DNS does not resolve.
+  notes:
+  - >-
+    GitHub organization github.com/Medbelle exists (created 2017-11-28, HTTP 200) but
+    publishes ZERO public repositories, so there is no .proto, WSDL, AsyncAPI or SDK
+    source to harvest. Its profile website field currently points at
+    https://www.simplyhealth.co.uk/ — consistent with, but not proof of, where the
+    platform went; the farewell page does not name an acquirer.
+  - >-
+    No package named medbelle exists on npm (0 results), PyPI (404), or as a first-party
+    library anywhere searched, so no packages/ artifact was written.
+  - >-
+    The Internet Archive CDX index for medbelle.com lists exactly one /api/ path ever
+    captured — https://www.medbelle.com/api/csp-report — which is a Content-Security-Policy
+    report collector for the marketing site, not a public API. No developer portal,
+    reference, or spec URL appears in the archive.

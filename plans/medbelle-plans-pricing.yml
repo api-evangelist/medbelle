@@ -1,0 +1,13 @@
+generated: '2026-08-25'
+method: searched
+source: https://medbelle.com/
+plan_count: 0
+currency: null
+plans: []
+note: >-
+  No pricing or plans surface exists. Medbelle ceased operations in 2026; medbelle.com
+  serves one farewell page and every other path, including the previously indexed
+  pricing and CareConnect pages, returns HTTP 404. Medbelle never published API plans —
+  it sold coordinated elective-surgery care to patients and to insurer/employer/case-management
+  partners, priced per pathway under commercial agreement, not via a self-serve developer tier.
+  This is a recorded absence, not an unchecked field.

@@ -1,8 +1,18 @@
 aid: medbelle
 name: Medbelle
-description: 'Medbelle is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Medbelle was a London-headquartered digital healthcare company, founded
+  in 2016 by Leander de Laporte and Daniel Kolb, that operated as a "digital hospital"
+  coordinating elective specialist care across the UK. It combined a technology platform
+  (marketed as Medbelle OS, with a CareConnect virtual-first assessment pathway) with
+  human Patient Care Advisers to route patients through consultation, diagnostics,
+  surgery and aftercare, working with clinicians, hospitals, insurers, employers and
+  case managers. Specialties spanned cosmetic, bariatric, orthopaedic and ophthalmic
+  surgery. Medbelle ceased trading in 2026 and its technology platform was transferred
+  elsewhere; medbelle.com now serves a single farewell page and every other path on
+  the domain returns 404. No public developer program, API documentation or machine-readable
+  API contract was ever published, and none survives.'
 url: https://raw.githubusercontent.com/api-evangelist/medbelle/refs/heads/main/apis.yml
+image: https://medbelle.com/assets/medbelle-logo.svg
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +22,12 @@ created: '2026-08-25'
 modified: '2026-08-25'
 tags:
 - Company
+- Health Care
+- Digital Health
+- Elective Surgery
+- Patient Care Coordination
+- United Kingdom
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +36,43 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://medbelle.com/
+- type: GitHubOrganization
+  url: https://github.com/Medbelle
+- type: LinkedIn
+  url: https://www.linkedin.com/company/medbelle/
+- type: Lifecycle
+  url: lifecycle/medbelle-lifecycle.yml
+- type: DomainSecurity
+  url: security/medbelle-domain-security.yml
+- type: LLMsTxt
+  url: llms/medbelle-llms.txt
+- type: Plans
+  url: plans/medbelle-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/medbelle-rate-limits.yml
+x-enrichment:
+  date: '2026-08-25'
+  status: minimal
+  artifacts_added: 6
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: defunct
+  detail: >-
+    Medbelle ceased trading in 2026; medbelle.com now serves a single static farewell
+    page at "/" and a custom 404 for every other path, including the previously indexed
+    /careconnect/ and /about/ pages, and api./docs./developers.medbelle.com do not resolve
+    in DNS.
+  evidence:
+  - url: https://medbelle.com/
+    status: 200
+  - url: https://medbelle.com/careconnect/
+    status: 404
+  - url: https://medbelle.com/openapi.json
+    status: 404
+  - url: https://medbelle.com/.well-known/agent-card.json
+    status: 404
+  - url: https://api.github.com/orgs/Medbelle/repos
+    status: 200
+  checked: '2026-08-25'
