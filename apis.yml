@@ -12,6 +12,17 @@ description: 'Medbelle was a London-headquartered digital healthcare company, fo
   the domain returns 404. No public developer program, API documentation or machine-readable
   API contract was ever published, and none survives.'
 url: https://raw.githubusercontent.com/api-evangelist/medbelle/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://medbelle.com/assets/medbelle-logo.svg
 x-type: company
 x-source: harvest:secondary-market
