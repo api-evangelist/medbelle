@@ -64,14 +64,57 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Medbelle (2016-2026) was a London-headquartered digital healthcare company that operated as a
-"digital hospital" coordinating elective specialist care across the UK, pairing a technology
-platform (Medbelle OS, with the CareConnect virtual-first assessment pathway) with human Patient
-Care Advisers. **Medbelle ceased operations in 2026** and its technology platform was transferred
-to another owner. Medbelle never published a public API, developer portal, or machine-readable API
-contract, and none survives — `medbelle.com` now serves a single farewell page and returns 404 for
-every other path. See `lifecycle/medbelle-lifecycle.yml` for the full contract-discovery probe log.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-- Website: https://medbelle.com/
-- GitHub organization (zero public repositories): https://github.com/Medbelle
-- LinkedIn: https://www.linkedin.com/company/medbelle/
+Medbelle was a London-headquartered digital healthcare company, founded in 2016 by Leander de Laporte and Daniel Kolb, that operated as a "digital hospital" coordinating elective specialist care across the UK. It combined a technology platform (marketed as Medbelle OS, with a CareConnect virtual-first assessment pathway) with human Patient Care Advisers to route patients through consultation, diagnostics, surgery and aftercare, working with clinicians, hospitals, insurers, employers and case managers. Specialties spanned cosmetic, bariatric, orthopaedic and ophthalmic surgery. Medbelle ceased trading in 2026 and its technology platform was transferred elsewhere; medbelle.com now serves a single farewell page and every other path on the domain returns 404. No public developer program, API documentation or machine-readable API contract was ever published, and none survives.
+
+**Areas:** Company · Healthcare · Digital Health · Elective Surgery · Patient Care Coordination · United Kingdom · Defunct
+
+## Medbelle on APIs.io (historical record)
+
+Everything profiled for Medbelle is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/medbelle/](https://apis.io/providers/medbelle/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Medbelle Domain Security](https://apis.io/security/medbelle/medbelle-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Medbelle Plans Pricing](https://apis.io/plans/medbelle/medbelle-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Medbelle Rate Limits](https://apis.io/rate-limits/medbelle/medbelle-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://medbelle.com/)
+- [GitHub](https://github.com/Medbelle)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Medbelle: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/medbelle/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
